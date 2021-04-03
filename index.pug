@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Le lecteur vidéo
+    link(rel="stylesheet", href="./index.css")
+  body
+
+    .container-video
+      video(src="./Turtle.m4v").video 
+
+      .controls
+        .barre-rouge 
+          .juice
+
+        .buttons
+          button#play-pause
+            img(src="./play.svg", alt="")
+          button#mute Mute
+          input(type="range", name="" id="volume-slider" min="0" max="100" value="50" step="1")
+          button#fullscreen
+            img(src="./fullscreen.svg", alt="")
+
+
+
+
+    script(src="./index.js") 

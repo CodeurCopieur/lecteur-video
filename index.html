@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le lecteur vidéo</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="container-video">
+      <video class="video" src="./Turtle.m4v"> </video>
+      <div class="controls">
+        <div class="barre-rouge"> 
+          <div class="juice"></div>
+        </div>
+        <div class="buttons">
+          <button id="play-pause"><img src="./play.svg" alt=""></button>
+          <button id="mute">Mute</button>
+          <input type="range" name="" id="volume-slider" min="0" max="100" value="50" step="1">
+          <button id="fullscreen"><img src="./fullscreen.svg" alt=""></button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"> </script>
+  </body>
+</html>
